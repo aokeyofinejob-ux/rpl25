@@ -23,7 +23,7 @@ body {
 .logo {
     background: transparent;
     width: 360px;
-    height: 560px;
+    height: 360px;
     animation: zoomIn 1.5s ease;
     background-attachment: transparent;
 }
@@ -41,4 +41,5 @@ body {
 
 @keyframes fadeOut {
     to { opacity: 0; }
+
 }
