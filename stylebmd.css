@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.splash {
+    background-color: #b30000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeOut 1s ease-in-out forwards;
+    animation-delay: 3s;
+}
+
+.logo {
+    background: transparent;
+    width: 360px;
+    height: 560px;
+    animation: zoomIn 1.5s ease;
+    background-attachment: transparent;
+}
+
+/* ANIMASI */
+@keyframes zoomIn {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    to { opacity: 0; }
+}
